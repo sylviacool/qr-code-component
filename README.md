@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop View](./screenshot-desktop.png)
-![Mobile View](./screenshot-mobile.png)
+![Desktop View](./design/screenshot-desktop.png)
+![Mobile View](./design/screenshot-mobile.png)
 
 ### Links
 
@@ -44,19 +44,23 @@ Users should be able to:
 
 ### What I Learned
 
-During this project, I practiced implementing a mobile-first workflow and styling components using flexbox. For example:
+During this project, I practiced implementing a mobile-first workflow and styling components using flexbox. The display: flex property made it easier to align items in the container both vertically and horizontally. The flex-direction: column helped stack elements vertically, which is essential for mobile responsiveness. I also used justify-content and align-items to center the items in the container, ensuring the design looks great on both small and large screens.For example:
 
 ```css
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: flex; /* Using flexbox to align content */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items along the main axis */
+  align-items: center; /* Center items along the cross axis */
+  height: 100vh; /* Make the container take the full viewport height */
 }
+
+
 
 ----
 
 ## Author
-Live Site - [QR Code Component](https://qr-code-180.netlify.app/)
-Frontend Mentor -[@sylviacool](https://www.frontendmentor.io/profile/sylviacool)
-- GitHub - [@sylviacool](https://github.com/sylviacool)
+
+- Live Site: [QR Code Component](https://qr-code-180.netlify.app/)
+- Frontend Mentor: [@sylviacool](https://www.frontendmentor.io/profile/sylviacool)
+- GitHub: [@sylviacool](https://github.com/sylviacool)
