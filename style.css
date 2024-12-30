@@ -47,14 +47,24 @@ p {
   margin: 0 0 20px;
 }
 
+.next-level {
+  color: hsl(218, 44%, 22%); /* Adjust color if needed */
+}
+
 @media (max-width: 375px) {
+  .container {
+    padding: 15px;
+  }
+  
   h1 {
     font-size: 18px;
   }
 
-  .container {
-    padding: 15px;
+  p {
+    font-size: 14px; 
+    line-height: 1.5;
   }
+
 }
 
 @media (min-width: 768px) {
