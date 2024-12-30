@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/your-username/qr-code-component)
-- Live Site URL: [Netlify](https://your-netlify-url.netlify.app/)
+- Solution URL: [GitHub Repository](https://github.com/sylviacool/qr-code-component)
+- Live Site URL: [Netlify](https://qr-code-180.netlify.app/)
 
 ## My Process
 
