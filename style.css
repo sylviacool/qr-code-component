@@ -27,7 +27,7 @@ body {
 
 
 .container img {
-  width: 100%;
+  max-width: 100%;
   border-radius: 10px;
   height: auto;
 }
@@ -36,16 +36,27 @@ h1 {
   font-size: 15px; 
   font-weight: 700;
   color: hsl(218, 44%, 22%); 
-  margin: 20px 0 10px 0;
+  margin: 20px 0;
 }
 
 p {
   font-size: 15px;
   font-weight: 400;
   color: hsl(216, 15%, 48%); 
-  line-height: 1.5;
-  margin: 0 0 20px 0;
+  line-height: 1.6;
+  margin: 0 0 20px;
 }
+
+@media (max-width: 375px) {
+  h1 {
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     width: 320px; 
