@@ -57,6 +57,6 @@ During this project, I practiced implementing a mobile-first workflow and stylin
 ----
 
 ## Author
-Live Site - [QR Code Component]
+Live Site - [QR Code Component](https://qr-code-180.netlify.app/)
 Frontend Mentor -[@sylviacool](https://www.frontendmentor.io/profile/sylviacool)
 - GitHub - [@sylviacool](https://github.com/sylviacool)
